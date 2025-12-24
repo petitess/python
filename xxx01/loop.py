@@ -41,3 +41,11 @@ for n in numbers:
     if n not in uniges:
         uniges.append(n)
 print(uniges)
+
+private_endpoints = {
+    "blob": "10.100.4.5",
+    "table": "10.100.4.6"
+}
+for p, ip in private_endpoints.items():
+    print(p)
+    print(ip)
