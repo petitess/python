@@ -49,3 +49,10 @@ private_endpoints = {
 for p, ip in private_endpoints.items():
     print(p)
     print(ip)
+
+numbers = ['a', 'b', 'c', 'd', 'e']
+for index, n in enumerate(numbers, start=1):
+    print(index, n)
+
+for i in range(len(numbers)):
+    print(i, numbers[i])
